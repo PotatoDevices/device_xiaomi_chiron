@@ -24,6 +24,9 @@ function blob_fixup() {
         sed -i "s|/etc/elliptic_sensor.xml|/vendor/etc/elliptic.xml|g" "${2}"
         patchelf --remove-needed "libandroid.so" "${2}"
         ;;
+    vendor/etc/qdcm_calib_data_jdi_fhd_video_dsi_panel.xml)
+        sed -i 's/<Disp_Modes NumModes="39" DefaultMode="1">/<Disp_Modes NumModes="38" DefaultMode="0">/g' "${2}"
+        ;;
     esac
 }
 
