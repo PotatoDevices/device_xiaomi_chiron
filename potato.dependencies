@@ -1,14 +1,18 @@
 [
   {
-    "repository": "HrX03/device_xiaomi_msm8998-common",
+    "repository": "PotatoDevices/device_xiaomi_msm8998-common",
     "target_path": "device/xiaomi/msm8998-common"
   },
   {
-    "repository": "LineageOS/android_kernel_xiaomi_msm8998",
+    "repository": "PotatoDevices/kernel_xiaomi_msm8998",
     "target_path": "kernel/xiaomi/msm8998"
   },
   {
-    "repository": "TheMuppets/proprietary_vendor_xiaomi",
-    "target_path": "vendor/xiaomi"
+    "repository": "PotatoDevices/vendor_xiaomi_chiron",
+    "target_path": "vendor/xiaomi/chiron"
+  },
+  {
+    "repository": "PotatoDevices/vendor_xiaomi_msm8998-common",
+    "target_path": "vendor/xiaomi/msm8998-common"
   }
 ]
