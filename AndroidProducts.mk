@@ -15,9 +15,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/nitrogen_chiron.mk
+    $(LOCAL_DIR)/potato_chiron.mk
 
 COMMON_LUNCH_CHOICES := \
-    nitrogen_chiron-user \
-    nitrogen_chiron-userdebug \
-    nitrogen_chiron-eng
+    potato_chiron-user \
+    potato_chiron-userdebug \
+    potato_chiron-eng
