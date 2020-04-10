@@ -30,6 +30,9 @@ PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := Mi MIX 2
 PRODUCT_MANUFACTURER := Xiaomi
 
+# Enable Faceunlock for POSP users
+PRODUCT_ARCH := arm64
+
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
