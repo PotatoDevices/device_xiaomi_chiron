@@ -17,6 +17,8 @@
 # Inherit from msm8998-common
 include device/xiaomi/msm8998-common/BoardConfigCommon.mk
 
+BUILD_BROKEN_DUP_SYSPROP := true
+
 DEVICE_PATH := device/xiaomi/chiron
 
 # Kernel
@@ -35,7 +37,8 @@ TARGET_RECOVERY_UI_MARGIN_STATUSBAR := 50
 TARGET_SCREEN_DENSITY := 400
 
 # SELinux
-BOARD_VENDOR_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy
+BOARD_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy-tmp
+
 
 # Inherit from proprietary files
 include vendor/xiaomi/chiron/BoardConfigVendor.mk
